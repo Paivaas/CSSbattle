@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.grande{
+.grande{ /*Definindo tamanho da div principal e alinhando os filhos no centro*/
     background-color: #191210;
     height: 400px;
     width: 500px;
@@ -11,7 +11,8 @@
     align-items: center;
     justify-content: center;
 }
-.circulo1{
+
+.circulo1{ /*Definindo o circulo amarelo central*/
     background-color: #ECA03D;
     height: 200px;
     width: 200px;
@@ -19,9 +20,10 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 1; /*Sobrepondo o circulo central em relação aos outros objetos do body*/
 }
-.circulo2{
+
+.circulo2{ /*Esse circulo foi usado para furar o Circulo1*/
     background-color: #191210;
     height: 140px;
     width: 140px;
@@ -30,27 +32,27 @@
     align-items: center;
     justify-content: center;
 }
-.circulo3{
+.circulo3{ /*Circulo central menor */
     background-color: #84271C;
     height: 70px;
     width: 70px;
     border-radius: 100%;
 }
 
-.lado{
+.lado{ /*objetos organizados a esquerda*/
     position: absolute;
     top: 220px;
     left: 120px;
     transform: translate(-50%, -50%);
 }
 
-.circuloMeio1{
+.circuloMeio1{ /*Projetando o tamanho do semi circulo*/
     background-color: #ECA03D;
     height: 130px;
     width: 130px;
     border-radius: 100%;
 }
-.quadrado{
+.quadrado{ /*Esse quadrado foi usado para apagar metado do semi circulo*/
     background-color: #191210;
     width: 100px;
     height: 60px;
@@ -92,5 +94,3 @@
     left: 66px;
     transform: translate(-50%, -50%);
 }
-
-
