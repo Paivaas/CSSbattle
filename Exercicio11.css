@@ -52,12 +52,12 @@
     width: 130px;
     border-radius: 100%;
 }
-.quadrado{ /*Esse quadrado foi usado para apagar metado do semi circulo*/
+.quadrado{ /*Esse quadrado foi usado para apagar metado do CirculoMeio esquerdo*/
     background-color: #191210;
     width: 100px;
     height: 60px;
 }
-.circuloMini{
+.circuloMini{ /*Esse mini circulo foi usado para apagar uma parte do CirculoMeio esquerdo*/
     background-color: #191210;
     height: 70px;
     width: 70px;
@@ -69,14 +69,14 @@
 }
 
 
-.lado2{
+.lado2{ /*Objetos alinhados a direta do circulo principal*/
     position: absolute;
     top: 180px;
     left: 389px;
     transform: translate(-50%, -50%);
 }
 
-.lado2 .quadrado{
+.lado2 .quadrado{ /*Esse quadrado foi usado para apagar metado do semi circulo direio*/
     background-color: #191210;
     width: 200px;
     height: 60px;
@@ -85,7 +85,7 @@
     left: 50px;
     transform: translate(-50%, -50%);
 }
-.lado2 .circuloMini{
+.lado2 .circuloMini{ /*Esse mini circulo foi usado para apagar uma parte do CirculoMeio direito*/
     border-radius:  100% 100% 0px 0px;
     height: 80px;
     width: 80px;
