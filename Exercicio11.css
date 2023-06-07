@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grande{
+    background-color: #191210;
+    height: 400px;
+    width: 500px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.circulo1{
+    background-color: #ECA03D;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.circulo2{
+    background-color: #191210;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.circulo3{
+    background-color: #84271C;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.lado{
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    transform: translate(-50%, -50%);
+}
+
+.circuloMeio1{
+    background-color: #ECA03D;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+}
+.quadrado{
+    background-color: #191210;
+    width: 100px;
+    height: 60px;
+}
+.circuloMini{
+    background-color: #191210;
+    height: 70px;
+    width: 70px;
+    border-radius: 0px 0px 100% 100%;
+    position: absolute;
+    top: 70px;
+    left: 61px;
+    transform: translate(-50%, -50%);
+}
+
+
+.lado2{
+    position: absolute;
+    top: 180px;
+    left: 389px;
+    transform: translate(-50%, -50%);
+}
+
+.lado2 .quadrado{
+    background-color: #191210;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+}
+.lado2 .circuloMini{
+    border-radius:  100% 100% 0px 0px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 70px;
+    left: 66px;
+    transform: translate(-50%, -50%);
+}
+
+

@@ -10,7 +10,7 @@
    width: 500px; 
    display: grid;
    grid-template-areas: "p1 p2" "p3 p4";
-   grid-template-columns: 4fr 2fr;
+   grid-template-columns: 4fr 2fr; /* Tamanho retangular*/
 }
 .pequeno{
     background-color: #fdc57b;
