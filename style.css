@@ -7,15 +7,16 @@
 .grande{
    background-color: #62374e;
    height: 400px;
-   width: 400px; 
+   width: 500px; 
    display: grid;
    grid-template-areas: "p1 p2" "p3 p4";
+   grid-template-columns: 4fr 2fr;
 }
 .pequeno{
     background-color: #fdc57b;
     margin: 70px; /* Borda*/
     height: 60px;
-   width: 60px;
+    width: 60px;
 }
 
 .pequeno1{
