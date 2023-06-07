@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grande{
+   background-color: #62374e;
+   height: 400px;
+   width: 400px;
+   display: grid;
+   grid-template-areas: "p1 p2" "p3 p4";
+}
+
+.pequeno{
+    background-color: #fdc57b;
+    margin: 70px;
+    height: 40px;
+   width: 40px;
+}
+.pequeno1{
+    grid-area: p1;
+}
+.pequeno2{
+    grid-area: p2;
+}
+.pequeno3{
+    grid-area: p3;
+}
+.pequeno4{
+    grid-area: p4;
+}
