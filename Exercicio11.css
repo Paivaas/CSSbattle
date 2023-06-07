@@ -94,3 +94,11 @@
     left: 66px;
     transform: translate(-50%, -50%);
 }
+
+footer{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
