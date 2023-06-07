@@ -3,20 +3,21 @@
     padding: 0;
 }
 
+/* Cor, tamanho e posição*/
 .grande{
    background-color: #62374e;
    height: 400px;
-   width: 400px;
+   width: 400px; 
    display: grid;
    grid-template-areas: "p1 p2" "p3 p4";
 }
-
 .pequeno{
     background-color: #fdc57b;
-    margin: 70px;
-    height: 40px;
-   width: 40px;
+    margin: 70px; /* Borda*/
+    height: 60px;
+   width: 60px;
 }
+
 .pequeno1{
     grid-area: p1;
 }
